@@ -1,0 +1,15 @@
+<?php
+
+namespace {{namespace}};
+
+use Distilleries\DatatableBuilder\EloquentDatatable;
+
+class {{class}} extends EloquentDatatable
+{
+    public function build()
+    {
+        {{fields}}
+
+        $this->addDefaultAction();
+    }
+}
